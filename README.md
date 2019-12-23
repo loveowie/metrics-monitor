@@ -15,7 +15,7 @@
 在application.properties中配置metrics-monitor相关配置
 ```
 // pushGateway地址
-metrics.config.push-gateway=172.22.90.172:9091
+metrics.config.push-gateway=xxx:xxx:xxx:9091
 // server名称，标识具体服务，建议为服务名（或其他辨识度高的标识）
 metrics.config.server=test
 // 推送间隔，即产生埋点后多久进行推送，若不配置默认为1分钟
